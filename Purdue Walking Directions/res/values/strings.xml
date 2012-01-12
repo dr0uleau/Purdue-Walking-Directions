@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Purdue Walking Directions</string>
+    <string name="main_search">Find Buildings</string>
+    <string name="main_add">Save Buildings</string>
+    <string name="main_view">Favorites</string>
+
+</resources>
