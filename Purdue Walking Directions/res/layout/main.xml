@@ -4,19 +4,21 @@
     android:layout_height="fill_parent" >
 
     <TableRow>
+
         <Button
             android:id="@+id/btnSearch"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@+string/main_search" />
-
+            android:text="@string/main_search" />
+
         <Button
-            android:id="@+id/btnAdd"
+            android:id="@+id/btnList"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@+string/main_add" />
+            android:text="@string/main_list" />
+
     </TableRow>
 
     <TableRow
@@ -24,13 +26,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
-
+
         <Button
-            android:id="@+id/btnView"
+            android:id="@+id/btnFavorites"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@+string/main_view" />
+            android:text="@string/main_favorites" />
+
         <View android:layout_weight="1"/>
     </TableRow>
 

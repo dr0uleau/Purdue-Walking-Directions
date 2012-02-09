@@ -3,8 +3,8 @@
 
     <string name="hello">Hello World, Main!</string>
     <string name="app_name">Purdue Walking Directions</string>
-    <string name="main_search">Find Buildings</string>
-    <string name="main_add">Save Buildings</string>
-    <string name="main_view">Favorites</string>
+    <string name="main_search">Search</string>
+    <string name="main_list">Buildings List</string>
+    <string name="main_favorites">Favorites</string>
 
 </resources>

@@ -20,23 +20,27 @@ public class Main extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(Main.this, Search.class);
+				startActivity(intent);
 			}
 		});
         
-        Button btnAdd = (Button)findViewById(R.id.btnAdd);
-        btnAdd.setOnClickListener(new OnClickListener() {
+        Button btnList = (Button)findViewById(R.id.btnList);
+        btnList.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				
+				Intent intent = new Intent(Main.this, List.class);
+				startActivity(intent);
 			}
 		});
         
-        Button btnView = (Button)findViewById(R.id.btnView);
-        btnView.setOnClickListener(new OnClickListener() {
+        Button btnFavorites = (Button)findViewById(R.id.btnFavorites);
+        btnFavorites.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
+				Intent intent = new Intent(Main.this, Favorites.class);
+				startActivity(intent);
 				
 			}
 		});
